@@ -46,4 +46,8 @@ mvn spring-boot:run
 
 ## Objetivo
 
+<<<<<<< HEAD
 Projeto prático de aprendizagem dos fundamentos e práticas com Spring Boot, incluindo desenvolvimento de APIs REST e persistência de dados.# api-produtos-springboot
+
+Projeto prático de aprendizagem dos fundamentos e práticas com Spring Boot, incluindo desenvolvimento de APIs REST e persistência de dados.
+>>>>>>> 6b6748e (Entrega da API REST de produtos)
