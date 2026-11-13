@@ -19,7 +19,7 @@ public class Produto {
     private String descricao;
 
     @NotNull(message = "O preço é obrigatório")
-    @DecimalMin(value = "0.0", message = "O preço não pode ser negativo")
+    @DecimalMin(value = "0.0", inclusive = false, message = "O preço deve ser maior que zero")
     private BigDecimal preco;
 
     @NotNull(message = "A quantidade é obrigatória")
